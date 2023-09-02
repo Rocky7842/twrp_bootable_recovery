@@ -64,8 +64,6 @@ exit:
 
 	android::base::SetProperty("twrp.modules.loaded", "true");
 
-	TWFunc::Wait_For_Battery(3s);
-
 	return true;
 }
 
